@@ -24,6 +24,7 @@
   display: flex;
   flex-direction: row;
 
+
 }
 
 body{
@@ -39,4 +40,14 @@ body{
   width:50%;
   height: 100%;
   background-color: green;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.box1, .box2, {
+  width: 50%;
+  height:50%;
+  background-color: pink;
+  border: 1px solid black;
 }
