@@ -9,8 +9,7 @@ body {
 }
 
 .item,
-p,
-button {
+p {
   color: white;
 }
 
@@ -42,7 +41,6 @@ button {
 .card2 {
   width: 50%;
   height: 100%;
-  background-color: green;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -52,10 +50,11 @@ button {
 .box2,
 .box3,
 .box4 {
-  width: 50%;
-  height: 50%;
+  width: 340px;
+  height: 340px;
   background-color: pink;
   border: 5px solid black;
   border-radius: 10px;
+  margin: auto;
 }
 

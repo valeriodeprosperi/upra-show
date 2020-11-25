@@ -7,8 +7,12 @@ body{
   background-color: black;
 }
 
-.item, p, button{
+.item, p{
   color: white;
+}
+
+button{
+
 }
 .container_top{
   width: 90%;
@@ -42,7 +46,6 @@ body{
 .card2{
   width:50%;
   height: 100%;
-  background-color: green;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -51,10 +54,11 @@ body{
 }
 
 .box1, .box2, .box3, .box4{
-  width: 50%;
-  height:50%;
+  width: 340px;
+  height:340px;
   background-color: pink;
   border: 5px solid black;
   border-radius: 10px;
+  margin:auto;
 
 }
