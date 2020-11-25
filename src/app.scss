@@ -3,38 +3,41 @@
   padding: 0;
   margin: 0;
 }
+body{
+  background-color: black;
+}
 
-.container{
-  width: 80%;
+.item, p, button{
+  color: white;
+}
+.container_top{
+  width: 90%;
   height: 100px;
-  margin: 50px 50px;
+  margin: 100px 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.item{
 
-}
 
-.container2{
-  width: 80%;
-  height: 1000px;
-  margin: 50px 50px;
+.container_main{
+  width: 90%;
+  height: 700px;
+  margin: 100px 100px;
   display: flex;
   flex-direction: row;
 
-
 }
 
-body{
-  background-color: red;
-}
+
 
 .card1{
   width:50%;
   height: 100%;
   background-color: blue;
+  border: 5px solid black;
+  border-radius: 10px;
 }
 .card2{
   width:50%;
@@ -42,12 +45,16 @@ body{
   background-color: green;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+
 
 }
 
-.box1, .box2, {
+.box1, .box2, .box3, .box4{
   width: 50%;
   height:50%;
   background-color: pink;
-  border: 1px solid black;
+  border: 5px solid black;
+  border-radius: 10px;
+
 }
