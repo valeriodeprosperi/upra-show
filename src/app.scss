@@ -6,7 +6,9 @@
 body{
   background-color: #E7DFC6;
 }
-
+.item{
+  padding: 0px 15px;
+}
 .item, p{
   color: white;
 }
@@ -19,6 +21,7 @@ button{
   height: 100px;
   margin: 100px 100px;
   background-color: black;
+  border-radius: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -60,7 +63,7 @@ button{
   height:340px;
   background-color: #FC6C43;
   border: 5px solid black;
-  border-radius: 10px;
+  border-radius: 15px;
   margin:auto;
 
 }
